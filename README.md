@@ -5,7 +5,7 @@ If you are using CocoaPods (or Wish to use CocoaPods for integrating MogeanSDK),
  ##
 Step-1: Initiate CocoaPods $ pod init
 
-Step-2: Integrate MogeanSDK Pod into Pod file. MogeanSDK is available as a private pod. Open your Podfile and add the following Sources source 'https://github.com/CocoaPods/Specs.git' source 'https://bitbucket.org/mogean/mogeanpod'
+Step-2: Integrate MogeanSDK Pod into Pod file. MogeanSDK is available as a private pod. Open your Podfile and add the following Sources source 'https://github.com/CocoaPods/Specs.git' source 'https://github.com/getmogean/MogeanSDK-iOS'
 Add Target MogeanSDK and your podfile will look something like this:
   target 'AppTargetName' do 
     pod 'MogeanSDK', 
