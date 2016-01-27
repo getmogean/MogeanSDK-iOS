@@ -12,6 +12,7 @@ Add Target MogeanSDK and your podfile will look something like this:
   end
 
 Step-3: Install CocoaPod Install MogeanSDK $ pod install MogeanSDK is now integrated in your App.
+Step-4: In the applications info.plist, add your message for NSLocationAlwaysUsageDescription. This will allow the app to perform location updates even while in background. 
 
 ## **Section - B: Without using CocoaPod** ##
 
